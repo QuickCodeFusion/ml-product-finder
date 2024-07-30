@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import InputForm from './components/InputForm';
-import SearchHistory from './components/SearchHistory';
-import SellerDetails from './components/SellerDetails';
+import SearchHistory from '@/components/SearchHistory';
+import SellerDetails from '@/components/SellerDetails';
 import axios from 'axios';
+import InputForm from '@/components/InputForm';
 
 export default function App() {
   const [item1, setItem1] = useState('');
